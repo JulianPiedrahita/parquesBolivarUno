@@ -5,9 +5,10 @@ class Config:
 class DevelopmentConfig(Config):
     DEBUG = True
     MYSQL_HOST = 'localhost'
+    PORT = '3306'
     MYSQL_USER = 'root'
-    MYSQL_PASSWORD = '123456'
-    MYSQL_DB = 'flask_login'
+    MYSQL_PASSWORD = 'Devop$2021+'
+    MYSQL_DB = 'parquesbolivaruno'
 
 
 config = {
